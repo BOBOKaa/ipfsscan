@@ -2,12 +2,12 @@ name: Prod Release to Github Pages
 
 
 on:
-#  push:
-#    branches: [ main ]
+  push:
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
-    if: github.repository == 'crustio/ipfsscan'
+    if: github.repository == 'BOBOKaa/ipfsscan'
     runs-on: ubuntu-latest
 
     steps:
